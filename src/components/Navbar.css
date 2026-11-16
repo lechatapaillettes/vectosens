@@ -1,0 +1,157 @@
+.nav {
+  position: static;
+}
+
+.nav-desktop {
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-language {
+  margin: auto 0.65rem;
+}
+
+.flag {
+  width: 1.6rem;
+  margin: 0.65rem;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: #015391;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: -0.3rem;
+  padding: 0.3rem;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/* Navbar animation */
+
+@media only screen and (min-width: 769px) {
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all 0.5s;
+  }
+
+  nav ul li a:hover {
+    color: #2d9d17;
+  }
+
+  nav.nav ul li a {
+    position: relative;
+  }
+
+  nav.nav ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #24b2b9;
+    height: 2px;
+  }
+  nav.nav ul li a:hover:after {
+    width: 100%;
+  }
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  /* Navbar */
+
+  .navbar {
+    position: fixed;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .nav-mobile {
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-mobile,
+  .burger-open {
+    position: fixed;
+    z-index: 50;
+    height: 3rem;
+    box-sizing: border-box;
+  }
+
+  .burger-menu {
+    color: #015391;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .burger-icon-close {
+    font-size: 1.5rem;
+  }
+
+  .burger-icon-open {
+    font-size: 1.2rem;
+  }
+
+  .burger-icon-container {
+    display: flex;
+  }
+
+  .burger-icon {
+    opacity: 1;
+  }
+
+  .burger-icon-hidden {
+    opacity: 0;
+    display: none;
+  }
+
+  .burger-open {
+    margin-top: 2.9rem;
+    right: 0;
+    padding: 0.25rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+    box-shadow:
+      0 1px 3px 0 rgb(0 0 0 / 0.1),
+      0 1px 2px -1px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger-item {
+    margin: 2rem 0;
+    text-transform: uppercase;
+  }
+}

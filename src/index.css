@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  height: 100%;
+  font-family: "Geologica", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #015391;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #015391;
+}
+
+h1 {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  color: #015391;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* 015391 Baltic Blue
+2ACED6 Strong Cyan
+2D9D17 Forest Green
+C5FA32 Chartreuse */

@@ -1,0 +1,12 @@
+footer {
+  padding: 1rem;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #2d9d17;
+}
