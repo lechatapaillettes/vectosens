@@ -3,7 +3,14 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import NotFound from "./pages/NotFoundPage";
+
 import LandingPage from "./pages/LandingPage";
+import WhoPage from "./pages/WhoPage";
+import ServicesPage from "./pages/ServicesPage";
+import TrainingPage from "./pages/TrainingPage";
+import OutreachPage from "./pages/OutreachPage";
+import ContactPage from "./pages/ContactPage"; 
+ 
 import Footer from "./components/Footer";
 
 import french from "./texts/french.json";
@@ -14,6 +21,8 @@ import "./App.css";
 
 function App() {
   const [language, setLanguage] = useState("french");
+
+  const [activePage, setActivePage] = useState("landing");
 
   const texts = {
     french,
@@ -32,16 +41,37 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <Navbar language={language} changeLanguage={changeLanguage} />
+        <Navbar
+          language={language}
+          changeLanguage={changeLanguage}
+          activePage={activePage}
+          setActivePage={setActivePage}
+        />
 
         <div className="main-content">
           <Routes>
-            {/* Landing page */}
-
             <Route
-              exact
               path="/"
-              element={<LandingPage language={language} />}
+              element={
+                <>
+                  {activePage === "landing" && (
+                    <LandingPage language={language} />
+                  )}
+                  {activePage === "who" && <WhoPage language={language} />}
+                  {activePage === "services" && (
+                    <ServicesPage language={language} />
+                  )}
+                  {activePage === "training" && (
+                    <TrainingPage language={language} />
+                  )}
+                  {activePage === "outreach" && (
+                    <OutreachPage language={language} />
+                  )}
+                  {activePage === "contact" && (
+                    <ContactPage language={language} />
+                  )}
+                </>
+              }
             />
 
             {/* 404 */}

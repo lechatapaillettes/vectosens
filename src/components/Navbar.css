@@ -12,6 +12,19 @@
   align-items: center;
 }
 
+.home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  background: transparent;
+  color: #015391;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 .nav-language {
   margin: auto 0.65rem;
 }
@@ -46,34 +59,23 @@
 /* Navbar animation */
 
 @media only screen and (min-width: 769px) {
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
-    transition: all 0.5s;
+  .nav-link {
+    padding-bottom: 3px;
+    background-image: linear-gradient(#2d9d17, #c5fa32);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
   }
 
-  nav ul li a:hover {
+  .nav-link:hover,
+  .nav-link.active {
+    background-position: bottom left;
+    background-size: 100% 2px;
+  }
+
+  .home-button:hover {
     color: #2d9d17;
-  }
-
-  nav.nav ul li a {
-    position: relative;
-  }
-
-  nav.nav ul li a:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: ".";
-    color: transparent;
-    background: #24b2b9;
-    height: 2px;
-  }
-  nav.nav ul li a:hover:after {
-    width: 100%;
   }
 }
 
@@ -153,5 +155,18 @@
   .burger-item {
     margin: 2rem 0;
     text-transform: uppercase;
+  }
+
+  .burger-link {
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-transform: inherit;
+    cursor: pointer;
+  }
+
+  .burger-home {
+    font-size: 1.5rem;
   }
 }

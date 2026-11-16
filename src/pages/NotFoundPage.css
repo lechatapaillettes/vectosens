@@ -1,0 +1,33 @@
+div.not-found {
+  padding: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+  min-height: calc(100vh - 140px);
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+div.not-found-txt {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  div.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+  }
+
+  div.not-found-txt {
+  font-size: 1.5rem;
+}
+
+}

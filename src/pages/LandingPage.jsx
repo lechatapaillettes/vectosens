@@ -1,4 +1,4 @@
-import './LandingPage.css';
+import './Pages.css';
 
 import logo from "../assets/IMG/logo.png";
 

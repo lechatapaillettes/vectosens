@@ -1,9 +1,37 @@
 {
   "page-title": "VectoSens • Vector Biology Expertise",
 
-  "who": "Qui sommes-nous ?",
-  "services": "Nos services",
-  "contact": "Nous contacter",
+  "who-title": "Qui sommes-nous ?",
+  "who-subtitle": "Une science rigoureuse, un jugement indépendant.",
+  "who-text": [
+    "Nous associons des décennies d'expérience en recherche universitaire à un regard pratique sur les problèmes des entreprises et des institutions.",
+    "• <b>Excellence scientifique :</b> validée par un grand nombre de publications internationales.",
+    "• <b>Indépendance :</b> nos conclusions suivent les données, et non le client ou le produit.",
+    "• <b>Réseau international :</b> nous collaborons avec des laboratoires, des experts et des organisations de plusieurs pays.",
+    "• <b>Capacité de communication :</b> formation et diffusion de connaissances à toutes sortes de publics.",
+    "• <b>Flexibilité :</b> nous adaptons chaque projet à la dimension, au calendrier et à l'objectif du commanditaire."
+  ],
+
+  "services-title": "Conseil",
+  "services-subtitle": "Accompagnement R+D. De l'idée à la preuve.",
+  "services-text": [
+    "Nous accompagnons le développement et l’évaluation de technologies et de produits innovants en apportant une expertise scientifique indépendante et des conseils fondés sur les données probantes. Nos prestations comprennent la conception expérimentale, l’élaboration de protocoles, la réalisation d’essais à petite échelle en laboratoire et sur le terrain, l’analyse critique des données et l’interprétation des résultats afin d’éclairer les décisions relatives aux étapes ultérieures de développement et de validation.",
+    "Forts d’une expertise particulière dans la lutte contre les moustiques et autres vecteurs, nous associons rigueur scientifique, transparence méthodologique et documentation exhaustive afin de garantir la traçabilité et la reproductibilité des données. Lorsque les projets nécessitent des installations spécialisées, des capacités analytiques avancées ou une accréditation formelle, nous collaborons avec des laboratoires externes qualifiés afin que les essais et les évaluations répondent aux exigences techniques et aux normes de qualité applicables."
+  ],
+
+  "training-title": "Formation professionelle",
+  "training-subtitle": "Formation en biologie de vecteurs de maladies.",
+  "training-text": [
+    "Des programmes sur mesure pour les équipes techniques, les opérateurs et les professionnels de la santé publique et de l'industrie. Nous associons fondements scientifiques, cas réels et exercices pratiques, en présentiel ou en ligne, en plusieurs langues. Chaque session est adaptée au niveau et aux besoins du groupe, et se termine par des outils concrets pour le travail quotidien."
+  ],
+
+  "outreach-title": "Médiation scientifique",
+  "outreach-subtitle": "Rendre la science compréhensible et utile.",
+  "outreach-text": [
+    "Nous transformons rapports techniques et résultats de recherche en messages clairs pour les décideurs, les clients, les médias et le grand public. Nous rédigeons des documents de vulgarisation, réalisons de présentations et conférences, et accompagnons la communication de projets et de produits avec une approche honnête et fondée sur les preuves, sans exagérer ce que les données ne permettent pas d'affirmer."
+  ],
+
+  "contact-title": "Nous contacter",
 
   "not-found-txt": "La page que vous cherchez n'existe pas.",
   "not-found-link": "Cliquez ici pour retourner à la page d'accueil.",

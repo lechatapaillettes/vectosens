@@ -1,9 +1,37 @@
 {
   "page-title": "VectoSens • Vector Biology Expertise",
 
-  "who": "Who are we?",
-  "services": "Our services",
-  "contact": "Contact us",
+  "who-title": "Who are we?",
+  "who-subtitle": "Rigorous science, independent judgment.",
+  "who-text": [
+    "We combine decades of university research experience with a practical view of the problems facing companies and institutions.",
+    "• <b>Scientific excellence:</b> validated by many international publications.",
+    "• <b>Independence:</b> our conclusions follow the data, not the client or the product.",
+    "• <b>International network:</b> we collaborate with laboratories, experts and organisations of different countries.",
+    "• <b>Communication skills:</b> training and diffusion for all kinds of publics.",
+    "• <b>Flexibility:</b> we adapt each project to the magnitude, timeline and goals of the client."
+  ],
+
+  "services-title": "Advisory",
+  "services-subtitle": "Advise in R+D. From idea to evidence.",
+  "services-text": [
+    "We guide and advise the development and evaluation of innovative technologies and products, providing independent scientific expertise and evidence-based guidance throughout the process. Our services span the entire development pathway, from experimental design and protocol development to small-scale laboratory and field testing, critical data analysis, and interpretation of results. We help our clients assess outcomes, identify potential limitations, and determine the most appropriate next steps for further development and validation.",
+    "With particular expertise in mosquito and vector control, we combine scientific rigor, methodological transparency, and comprehensive documentation to ensure data traceability and reproducibility. When projects require specialized facilities, advanced analytical capabilities, or formal accreditation, we coordinate with qualified external laboratories to ensure that testing and evaluation meet the relevant technical and quality standards."
+  ],
+
+  "training-title": "Professional training",
+  "training-subtitle": "Training in vector biology.",
+  "training-text": [
+    "Tailor-made programmes for technical teams, operators and professionals in public health and industry. We combine scientific foundations, real cases and hands-on exercises, in person or online and in several languages. Each session is adapted to the group's level and needs, and ends with concrete tools for daily work."
+  ],
+
+  "outreach-title": "Scientific outreach",
+  "outreach-subtitle": "Making science understandable and useful.",
+  "outreach-text": [
+    "We turn technical reports and research results into clear messages for decision-makers, clients, media and the public. We write explanatory documents, present talks and conferences, and support the communication of projects and products with an honest, evidence-based approach that never overstates what the data show."
+  ],
+
+  "contact-title": "Contact us",
 
   "not-found-txt": "Oops! The page you are looking for does not exist.",
   "not-found-link": "Click here to go back to the homepage.",

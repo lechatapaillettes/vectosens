@@ -1,9 +1,37 @@
 {
   "page-title": "VectoSens • Vector Biology Expertise",
 
-  "who": "Quiénes somos?",
-  "services": "Nuestros servicios",
-  "contact": "Contáctenos",
+  "who-title": "¿Quiénes somos?",
+  "who-subtitle": "Ciencia rigurosa, criterio propio.",
+  "who-text": [
+    "Combinamos décadas de experiencia en investigación científica de excelencia, con una mirada práctica sobre los problemas de las empresas y las instituciones.",
+    "• <b>Excelencia científica:</b> validada por una gran cantidad de publicaciones internacionales.",
+    "• <b>Independencia:</b> nuestras conclusiones responden a los datos, no al cliente ni al producto.",
+    "• <b>Red internacional:</b> colaboramos con laboratorios, expertos y organizaciones de varios países.",
+    "• <b>Capacidad de comunicación:</b> experiencia en formación y difusión a todo tipo de público.",
+    "• <b>Flexibilidad:</b> adaptamos cada proyecto al tamaño, plazo y objetivo de quien lo encarga."
+  ],
+
+  "services-title": "Consultoría",
+  "services-subtitle": "Consultoría en I+D. De la idea a la evidencia.",
+  "services-text": [
+    "Acompañamos a nuestros clientes a lo largo de todo el proceso de desarrollo y evaluación de tecnologías y productos innovadores, aportando asesoramiento científico independiente y orientación fundamentada en la evidencia. Nuestros servicios abarcan todas las etapas del proceso, desde el diseño experimental y la elaboración de protocolos hasta la realización de ensayos a pequeña escala en laboratorio y en campo, el análisis crítico de los datos y la interpretación de los resultados. Ayudamos a nuestros clientes a evaluar los resultados obtenidos, identificar posibles limitaciones y determinar las estrategias más adecuadas para las siguientes etapas de desarrollo y validación.",
+    "Con especial experiencia en el control de mosquitos y otros vectores, combinamos rigor científico, transparencia metodológica y documentación exhaustiva para garantizar la trazabilidad y reproducibilidad de los datos. Cuando los proyectos requieren instalaciones especializadas, capacidades analíticas avanzadas o acreditación formal, coordinamos la colaboración con laboratorios externos cualificados para garantizar que los ensayos y las evaluaciones cumplan los requisitos técnicos y los estándares de calidad pertinentes."
+  ],
+
+  "training-title": "Formación profesional",
+  "training-subtitle": "Formación en biología de vectores.",
+  "training-text": [
+    "Programas a medida para equipos técnicos, operadores y profesionales de la salud pública y de la industria. Combinamos fundamentos científicos, casos reales y ejercicios prácticos, en formato presencial o en línea y en varios idiomas. Cada sesión se adapta al nivel y a las necesidades del grupo, y termina con herramientas concretas para el trabajo diario."
+  ],
+
+  "outreach-title": "Comunicación científica",
+  "outreach-subtitle": "Que la ciencia se entienda y se use.",
+  "outreach-text": [
+    "Convertimos informes técnicos y resultados de investigación en mensajes claros para decisores, clientes, medios y ciudadanía. Redactamos documentos divulgativos, realizamos presentaciones y conferencias, y apoyamos la comunicación de proyectos y productos con un enfoque honesto y basado en evidencia, sin exagerar lo que los datos no sostienen."
+  ],
+
+  "contact-title": "Contactarnos",
 
   "not-found-txt": "La página que estás buscando no existe.",
   "not-found-link": "Haz clic aquí para volver a la página de inicio.",

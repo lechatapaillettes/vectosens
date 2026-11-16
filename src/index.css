@@ -31,11 +31,41 @@ a {
 
 h1 {
   font-family: "Tenor Sans", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 300;
   color: #015391;
   text-align: center;
   margin-top: 2rem;
+}
+
+h2 {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #2D9D17;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  padding: 1rem 0;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+  }
 }
 
 /* 015391 Baltic Blue
